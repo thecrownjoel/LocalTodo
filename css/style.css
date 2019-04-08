@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");
+body {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #eee;
+  padding: 20px;
+}
+
+#task {
+  font-size: 2em;
+}
+
+#submitbtn {
+  font-size: 2em;
+  color: black;
+  background-color: greenyellow;
+}
+
+#clearbtn {
+  font-size: 2em;
+  color: black;
+  background-color: greenyellow;
+}
+
+#list {
+  font-family: "VT323", monospace;
+  font-size: 1.5em;
+  color: black;
+  background-color: chartreuse;
+}
+/*# sourceMappingURL=style.css.map */
