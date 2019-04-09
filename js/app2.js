@@ -30,6 +30,7 @@ function addStorage() {
 
 function clearStorage() {
     localStorage.clear(); // clearing local storage
+    document.getElementById('task').value = "";
     document.getElementById('list').innerHTML = ""; // clearing html
     items = [];
 }
